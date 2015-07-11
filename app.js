@@ -15,15 +15,56 @@ for (var i = 0; i <=1000; i+=100) {
   console.log(i);
 };
 
+console.log("____________________________");
+
 var num = 1;
 for (var i = 1; i < 9; i++) {
   console.log(num);
   num = num*2;
 };
-
 num = 0
+console.log("____________________________");
 
 for (var i = 0; i <=10; i++) {
   if (i%2 === 0)
     console.log(i);
 };
+
+console.log("____________________________");
+
+for (var i = 1; i <=15; i++) {
+  if (i%3 === 0)
+    console.log(i);
+};
+
+console.log("____________________________");
+
+for (var i = 10; i >= 0; i--) {
+  console.log(i);
+};
+
+console.log("____________________________");
+
+
+function repeatLog(times, count) {
+  for (var i = 0; i <= count; i ++) {
+    for (var x = 0; x < times; x ++){
+      console.log(i);
+    }
+  }
+};
+repeatLog(3,4);
+
+console.log("____________________________");
+
+function multipleLog(times, count) {
+  line = ""
+  for (var i = 0; i <= count; i ++) {
+    line += i}
+
+  for (var x = 0; x < times; x ++){
+
+      console.log(line);
+  }
+};
+multipleLog(3,4);
